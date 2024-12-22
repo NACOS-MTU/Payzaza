@@ -1,5 +1,5 @@
-# This is the [Quasar Payment System](https://qps.vercel.app/) project.
-![image](https://user-images.githubusercontent.com/69642932/225964316-ae09a2e5-1f13-4208-b13e-2663288f5dbc.png)
+# This is the [Payzaza Payment System](https://qps.vercel.app/) project.
+![image](https://bc.png)
 
 
 
