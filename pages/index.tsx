@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Quasar Payment System</title>
+        <title>Payzaza</title>
         <meta name="description" content="An Innovative way to transactions" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/qpsicon.png" />
@@ -26,15 +26,9 @@ export default function Home() {
           </NextLink>
           <div className={styles.qpsser}>
               By 
-                <a href="https://github.com/johnmiicheal" target="_blank" rel="noopener noreferrer">
-                  Johnmiicheal
+                <a href="https://github.com/NACOS-MTU" target="_blank" rel="noopener noreferrer">
+                  NACOS MTU
                 </a> | 
-                <a href="https://github.com/owolabioromidayo" target="_blank" rel="noopener noreferrer">
-                  Oromidayo
-                </a> | 
-                <a href="https://github.com/ScientificX" target="_blank" rel="noopener noreferrer">
-                  Otiger
-                </a>
           </div>
         </div>
         <Flex className={styles.center} pointerEvents='none'>

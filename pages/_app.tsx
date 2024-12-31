@@ -37,7 +37,7 @@ export default function App({ Component, pageProps}: AppProps) {
     return (
       <ThemeProvider theme={theme}>
         <Head>
-        <title>Quasar Payment System</title>
+        <title>Payzaza</title>
         <meta name="description" content="An Innovative way to transactions" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/qpsicon.png" />

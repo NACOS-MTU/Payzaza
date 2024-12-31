@@ -45,7 +45,7 @@ const Signin = () => {
   return (
     <Layout>
         <Head>
-        <title>Sign In to Quasar Pay</title>
+        <title>Sign In to Payzaza</title>
         <meta name="description" content="An Innovative way to transactions" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/qpsicon.png" />
@@ -69,7 +69,7 @@ const Signin = () => {
           px="126px"
         >
           <Text mt={10} fontSize={28} fontWeight={500}>
-            Sign In to Quasar Pay
+            Sign In to Payzaza
           </Text>
           <Flex direction="column" mt={10}>
             <Formik
