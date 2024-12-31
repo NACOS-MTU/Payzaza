@@ -1,5 +1,5 @@
 # This is the [Payzaza Payment System](https://qps.vercel.app/) project.
-![image](https://bc.png)
+![image](https://drive.google.com/file/d/18qPC2PPYUBrUwn0DgHaY9p2Ok1FYAk-M/view?usp=drive_link)
 
 
 
