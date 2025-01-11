@@ -2,9 +2,10 @@ import Head from 'next/head'
 import Image from 'next/image'
 import NextLink from "next/link"
 import { Mulish } from '@next/font/google'
-import { Flex } from "@chakra-ui/react";
+import { Flex, Text } from "@chakra-ui/react";
 import styles from '../styles/Home.module.css'
 import React from 'react'
+import Signin from './signin';
 
 const mulish = Mulish({ subsets: ['latin'], weight:'400' })
 
@@ -21,7 +22,7 @@ export default function Home() {
         <div className={styles.description}>
           <NextLink href="/signin" passHref>
             <p>
-              Get access to the Demo ⚡
+              Sign In
             </p>
           </NextLink>
           <div className={styles.qpsser}>
@@ -32,23 +33,11 @@ export default function Home() {
           </div>
         </div>
         <Flex className={styles.center} pointerEvents='none'>
-          <div className={styles.qpslogo}>
-              <Image
-                src="/qps.svg"
-                alt="13"
-                width={100}
-                height={40}
-                priority
-              />
+          <div>
+            <Text color="white" fontSize={80} mt={2} fontWeight={500} textAlign="center">
+              Payzaza
+              </Text>
             </div>
-            <Image
-              className={styles.logo}
-              src="/qps_text.svg"
-              alt="qps Logo"
-              width={400}
-              height={37}
-              priority
-            />
         </Flex>
 
         <div className={styles.grid}>
