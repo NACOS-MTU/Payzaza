@@ -14,7 +14,7 @@ const RightBar = () => {
         direction="column"
         bg="#fff"
         minH="full"
-        w="400px"
+        w="385px"
         pos="fixed"
         right={0}
         px={5}

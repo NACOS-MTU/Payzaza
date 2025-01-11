@@ -455,7 +455,7 @@ const LeftBar = () => {
       direction="column"
       bg="#ffffff"
       minH="full"
-      w="300px"
+      w="200px"
       pos="fixed"
       mx="auto"
       px={5}

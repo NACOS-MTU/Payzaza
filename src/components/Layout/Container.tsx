@@ -14,8 +14,8 @@ const Container: React.FC<ContainterProprs> = ({ children }) => {
       <Box bg="gray.200" minH="100vh" w="full">
         <Header />
         <Flex justify="space-between">
-          <LeftBar />
-          <Flex justify="center" ml={{ lg: "330px" }}>
+         <LeftBar /> 
+          <Flex justify="center" w="520px" ml={{ lg: "330px" }}>
             {children}
           </Flex>
           <RightBar />
